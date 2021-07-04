@@ -10,17 +10,24 @@ h2 span{
     font-size: 40px;
     color: #FFC61D;
 }
-.acnhorbutton{
-    text-decoration: none;
-   
-}
-#half-width{
+.half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-
 }
-#firstsection{
-    display: flex;
+.half-width img{
+    width: 80%;
+}
+.acnhorbutton{
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 40px;
+    color: white;
+    background-image: linear-gradient(salmon tomato);
+    border-radius: 5px;
+}
+.first-section{
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
 }
