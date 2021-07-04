@@ -1,7 +1,26 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
-    color: red;
+h1, h2{
+    font-size: 40px;
+}
+h2 span{
+    font-size: 40px;
+    color: #FFC61D;
+}
+.acnhorbutton{
+    text-decoration: none;
+   
+}
+#half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+#firstsection{
+    display: flex;
 }
