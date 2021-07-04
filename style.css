@@ -2,15 +2,11 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1, h2{
+h2{
     font-size: 40px;
 }
-/*first section*/
 h2 span{
     font-size: 40px;
-    color: #FFC61D;
-}
-h3{
     color: #FFC61D;
 }
 .half-width{
@@ -47,11 +43,21 @@ h3{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    padding-bottom: 50%;
+    padding-bottom: 40%;
  }
- #gradient{
-    box-shadow: 5px 7px 40px gray;
-    height: 80%;
+ #full{
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+ }
+ #baby{
+    box-shadow: 10px 10px 10px gray;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
  }
 
 
