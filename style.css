@@ -2,6 +2,12 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+p{
+    text-align: justify;
+}
+.space{
+    padding-bottom: 30px;
+}
 h2{
     font-size: 40px;
 }
@@ -11,7 +17,7 @@ h2 span{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 40%;
@@ -20,7 +26,7 @@ h2 span{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 .acnhorbutton{
     text-decoration: none;
@@ -50,10 +56,9 @@ h2 span{
  .experienc-item{
     width: 40%;
     margin-left: 5%;
-    margin-right: 5%;
     padding-left: 20px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 80px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
  }
